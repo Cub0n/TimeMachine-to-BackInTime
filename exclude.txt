@@ -1,0 +1,12 @@
+.exclusions.plist
+.DS_Store
+.DocumentRevisions-V100
+.localized
+.PKInstallSandboxManager-SystemSoftware
+.com.apple.backupd.mvlist.plist
+*.eventdb
+.OSInstallerMessages
+.RecoverySets
+.spotlight_repair
+.spotlight_temp
+
