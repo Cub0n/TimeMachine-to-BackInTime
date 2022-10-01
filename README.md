@@ -33,3 +33,6 @@ chmod 700 transformToBackInTime.sh
 
 ## Inspired by
 https://gist.github.com/tyzhnenko/d17b3cdc7ec6edf4164d788b552c1513#file-tmclone-sh
+
+## Open Isssue
+* How to consolidate Backups, also see https://github.com/bit-team/backintime/issues/1235
