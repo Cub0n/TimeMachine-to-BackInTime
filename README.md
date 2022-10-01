@@ -20,6 +20,13 @@ sshfs user@machine:/Volumes/BACKUP /media/MOUNT_POINT
 
 * Adjust SRC and DST variable in shell script.
 
+* Make script executable
+```bash
+chmod 700 transformToBackInTime.sh
+``` 
+
+* Check if some more files from Apple TimeMachine has to excluded (see exclude.txt)
+
 * **Always test the script with rsync's --dry-run parameter**
 
 * Run script
