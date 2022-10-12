@@ -8,7 +8,7 @@
 
 ## Pre-Work
 An apple computer is needed to read the backup from the (external) harddrive.
-Linux can not read Apples file system, so we have to remount it for Linux.
+Linux is not able to read Apples (encrypted) file system properly, so we have to remount it for Linux.
 
 ## Steps to reproduce
 
