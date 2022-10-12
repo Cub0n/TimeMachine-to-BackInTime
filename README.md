@@ -25,7 +25,7 @@ sshfs user@machine:/Volumes/BACKUP /media/MOUNT_POINT
 chmod 700 transformToBackInTime.sh
 ``` 
 
-* Check if some more files from Apple TimeMachine has to excluded (see exclude.txt)
+* Check if some more files from Apple TimeMachine has to be excluded (see exclude.txt)
 
 * **Always test the script with rsync's --dry-run parameter**
 
@@ -34,5 +34,6 @@ chmod 700 transformToBackInTime.sh
 ## Inspired by
 https://gist.github.com/tyzhnenko/d17b3cdc7ec6edf4164d788b552c1513#file-tmclone-sh
 
-## Open Isssue
+## Open Issue
 * How to consolidate Backups, also see https://github.com/bit-team/backintime/issues/1235
+* Synchronization to BackInTime is only possible with one machine name
